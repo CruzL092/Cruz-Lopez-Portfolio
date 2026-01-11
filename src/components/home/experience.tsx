@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ACMLogo from "../../public/images/acm_logo.webp";
+import ACMLogo from "../../../public/images/acm_logo.webp";
 
 const Experience = () => {
   return (

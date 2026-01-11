@@ -1,8 +1,8 @@
 // import Image from "next/image";
-import Profile from "../components/profile";
-import Experience from "../components/experience";
+import Profile from "../components/home/profile";
+import Experience from "../components/home/experience";
 import Header from "../components/headers";
-import Projects from "../components/projects";
+import Projects from "../components/home/projects";
 
 export default function Home() {
   return (
