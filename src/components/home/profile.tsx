@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Avatar from "../../public/images/gen_avatar.webp";
+import Avatar from "../../../public/images/gen_avatar.webp";
 
 const Profile = () => {
   return (
