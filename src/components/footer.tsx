@@ -5,8 +5,8 @@ import Github from "../../public/images/footer/github_icon.webp";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col lg:flex-row bg-linear-to-b lg:bg-linear-to-r from-[#4DB1B1] via-[#4DB1B4] to-[#83F5F5] h-full lg:h-40 w-full text-white ">
-      <div className="flex w-full items-center mt-8 lg:mt-0 lg:ml-50">
+    <div className="flex flex-col lg:flex-row bg-linear-to-b lg:bg-linear-to-r from-[#4DB1B1] via-[#90dfdf] to-[#90dfdf] lg:to-white h-full lg:h-40 w-full text-white border-t border-black mt-10">
+      <div className="flex w-full items-center mt-8 lg:mt-0">
         <Image
           src={Email}
           alt="Email Icon"
@@ -26,7 +26,7 @@ const Footer = () => {
           className="mr-[10%] md:mr-[15%]"
         />
       </div>
-      <div className="flex w-full flex-col  justify-center items-center mt-6 md:mt-10 lg:justify-end lg:items-end lg:mr-1 mb-1 font-bold text-shadow-lg/30">
+      <div className="flex w-full flex-col  justify-center items-center mt-6 md:mt-10 lg:justify-end lg:items-end lg:mr-1 mb-1 text-[#635656]">
         <p className="flex lg:w-2/6 items-start mb-1">
           &#169; 2026 Cruz Lopez{" "}
         </p>
