@@ -11,6 +11,7 @@ export default function Home() {
       <div className="pl-[10%] pr-[10%]">
         <Header text="Experience:" />
         <Experience />
+        <div id="projects" className="scroll-mt-60 lg:scroll-mt-25"></div>
         <Header text="Projects:" />
         <Projects />
       </div>
