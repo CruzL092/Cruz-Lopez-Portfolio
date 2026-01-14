@@ -53,7 +53,7 @@ const Navbar = () => {
         <div className="flex flex-1 ml-5 lg:ml-10">
           <Link
             href="/#"
-            className="scroll-mt-20"
+            className="scroll-mt-20 bg-linear-to-r from-[#635656] to-[#635656] hover:from-[#4DB1B1] hover:via-[#90dfdf] hover:to-[#90dfdf] bg-clip-text text-transparent"
             onClick={(e) => handleNavigation(e)}
           >
             Cruz Lopez
@@ -76,7 +76,7 @@ const Navbar = () => {
                 }
                 target={item.newTab ? "_blank" : "_self"}
                 rel={item.newTab ? "noopener noreferrer" : ""}
-                className="mr-20"
+                className="mr-20 bg-linear-to-r from-[#635656] to-[#635656] hover:from-[#4DB1B1] hover:via-[#90dfdf] hover:to-[#90dfdf] bg-clip-text text-transparent"
               >
                 {item.name}
               </Link>
