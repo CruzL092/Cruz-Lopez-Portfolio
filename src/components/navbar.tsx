@@ -4,6 +4,29 @@ import { items } from "../data/Nav";
 import { useRouter, usePathname } from "next/navigation";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
+import { motion } from "motion/react";
+
+const navbarVariants = {
+  open: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      type: "spring" as const,
+      stiffness: 300,
+      damping: 35,
+      duration: 0.2,
+    },
+  },
+  closed: {
+    y: "-100%",
+    opacity: 0,
+    transition: {
+      type: "spring" as const,
+      stiffness: 400,
+      damping: 40,
+    },
+  },
+};
 
 const Navbar = () => {
   const [openMobileMenu, setOpenMobileMenu] = useState(false);
@@ -84,7 +107,10 @@ const Navbar = () => {
           })}
         </div>
         {openMobileMenu && (
-          <div
+          <motion.div
+            variants={navbarVariants}
+            initial="closed"
+            animate="open"
             className={`lg:hidden bg-white absolute top-full w-full border-t-2 border-[rgba(19,19,19,0.5)] text-[#635656] flex flex-col`}
           >
             {items.map((item, index) => {
@@ -105,7 +131,7 @@ const Navbar = () => {
                 </Link>
               );
             })}
-          </div>
+          </motion.div>
         )}
       </div>
     </div>

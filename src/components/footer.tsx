@@ -1,30 +1,33 @@
+"use client";
+
 import Image from "next/image";
-import Email from "../../public/images/footer/email.webp";
-import LinkedIn from "../../public/images/footer/linkedin.webp";
-import Github from "../../public/images/footer/github_icon.webp";
+import { icons } from "../data/footer";
+import { motion } from "motion/react";
+
+const MotionImage = motion(Image);
 
 const Footer = () => {
   return (
     <div className="flex flex-col lg:flex-row bg-linear-to-b lg:bg-linear-to-r from-[#4DB1B1] via-[#90dfdf] to-[#90dfdf] lg:to-white h-full lg:h-40 w-full text-white border-t border-black mt-10">
       <div className="flex w-full items-center mt-8 lg:mt-0">
-        <Image
-          src={Email}
-          alt="Email Icon"
-          width={100}
-          className=" ml-[10%] mr-[10%] md:ml-[15%] md:mr-[20%] lg:mr-24"
-        />
-        <Image
-          src={LinkedIn}
-          alt="LinkedIn Icon"
-          width={70}
-          className="mr-[12%] md:mr-[24%] lg:mr-24"
-        />
-        <Image
-          src={Github}
-          alt="Github Icon"
-          width={75}
-          className="mr-[10%] md:mr-[15%]"
-        />
+        {icons.map((icon, index) => (
+          <MotionImage
+            key={index}
+            src={icon.name}
+            alt={icon.alt}
+            width={icon.width}
+            className={icon.className}
+            whileHover={{
+              scale: 1.15,
+              y: -6,
+            }}
+            transition={{
+              type: "spring",
+              stiffness: 400,
+              damping: 15,
+            }}
+          />
+        ))}
       </div>
       <div className="flex w-full flex-col  justify-center items-center mt-6 md:mt-10 lg:justify-end lg:items-end lg:mr-1 mb-1 text-[#635656]">
         <p className="flex lg:w-2/6 items-start mb-1">
