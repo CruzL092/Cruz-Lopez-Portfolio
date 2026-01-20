@@ -8,8 +8,7 @@
     "start": "next start",
     "eslint": "npx eslint -c eslint.config.mjs",
     "format": "prettier --write .",
-    "check": "prettier --check .",
-    "export": "next export"
+    "check": "prettier --check ."
   },
   "dependencies": {
     "motion": "^12.26.2",
