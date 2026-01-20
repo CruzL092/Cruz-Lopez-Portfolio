@@ -6,10 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "eslint": "npx eslint -c eslint.config.mjs",
+    "lint": "npx eslint -c eslint.config.mjs",
     "format": "prettier --write .",
-    "check": "prettier --check .",
-    "export": "next export"
+    "check": "prettier --check ."
   },
   "dependencies": {
     "motion": "^12.26.2",
