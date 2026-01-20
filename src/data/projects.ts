@@ -20,6 +20,8 @@ export const projects = [
     altText2: "ACM Logo",
     img3: github,
     altText3: "Github logo",
+    weblink: "https://wushu.ucrhighlanders.org/",
+    gitlink: "https://github.com/acm-ucr/wushu-website",
   },
 
   {
@@ -33,6 +35,8 @@ export const projects = [
     altText2: "ACM Logo",
     img3: github,
     altText3: "Github logo",
+    weblink: "https://fencing.ucrhighlanders.org/",
+    gitlink: "https://github.com/acm-ucr/fencing-website",
   },
 
   {
@@ -46,6 +50,8 @@ export const projects = [
     altText2: "ACM Logo",
     img3: github,
     altText3: "Github logo",
+    weblink: "https://skateclub.ucrhighlanders.org/",
+    gitlink: "https://github.com/acm-ucr/skate-club-website",
   },
 
   {
@@ -59,6 +65,8 @@ export const projects = [
     altText2: "ACM Logo",
     img3: github,
     altText3: "Github logo",
+    weblink: "https://acm-ucr.github.io/jm-products-website/",
+    gitlink: "https://github.com/acm-ucr/jm-products-website",
   },
 
   {
@@ -72,6 +80,8 @@ export const projects = [
     // altText2: "ACM Logo",
     // img3: github,
     // altText3: "Github logo"
+    weblink:
+      "https://www.figma.com/design/R5DRNTR9tMAWn2b3mTPQZE/Fall--25-Ride-UCR--Copy-?node-id=0-1&p=f&t=Kx2A4biB8EnbB61u-0",
   },
 
   {
@@ -85,6 +95,7 @@ export const projects = [
     // altText2: "ACM Logo",
     // img3: github,
     // altText3: "Github logo"
+    weblink: "https://pcshack.shop/",
   },
 
   {
@@ -94,10 +105,12 @@ export const projects = [
     date: "July 2025",
     description:
       "Developed a mock-up landing page for the organization “Charity Water” to attract young college student personas. Making use of Canva, HTML, and CSS",
-    // img2: acm,
-    // altText2: "ACM Logo",
-    // img3: github,
-    // altText3: "Github logo"
+    img2: acm,
+    altText2: "ACM Logo",
+    img3: github,
+    altText3: "Github logo",
+    weblink: "https://cruzl092.github.io/charity-water-Landing-Page/",
+    gitlink: "https://github.com/CruzL092/charity-water-Landing-Page",
   },
 ];
 

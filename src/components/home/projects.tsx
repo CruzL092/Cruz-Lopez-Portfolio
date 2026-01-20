@@ -31,6 +31,8 @@ const Projects = () => {
             altText2,
             img3,
             altText3,
+            weblink,
+            gitlink,
           },
           index,
         ) => (
@@ -52,6 +54,8 @@ const Projects = () => {
               altText2={altText2}
               img3={img3}
               altText3={altText3}
+              weblink={weblink}
+              gitlink={gitlink}
             />
           </motion.div>
         ),
