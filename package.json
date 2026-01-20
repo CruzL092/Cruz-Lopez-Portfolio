@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "npx eslint -c eslint.config.mjs",
+    "eslint": "npx eslint -c eslint.config.mjs",
     "format": "prettier --write .",
     "check": "prettier --check ."
   },
