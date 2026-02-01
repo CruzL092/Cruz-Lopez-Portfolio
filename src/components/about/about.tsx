@@ -90,7 +90,7 @@ const about = () => {
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.4 }}
+        viewport={{ once: true, amount: 0.8 }}
         className="flex flex-col lg:flex-row w-4/5 lg:w-5/6 text-3xl md:text-4xl mb-6"
       >
         {["Communication", "Adaptability", "Willingness to Learn"].map(
@@ -104,15 +104,6 @@ const about = () => {
             </motion.div>
           ),
         )}
-        {/* <div className="flex justify-center items-center bg-[#f5f5f5] w-full lg:w-1/3 h-40 md:h-50 border-2 font-bold text-[#635656] text-center rounded-md mb-10 lg:mr-10">
-          Communication
-        </div>
-        <div className="flex justify-center items-center bg-[#f5f5f5] w-full lg:w-1/3 h-40 md:h-50 border-2 font-bold text-[#635656] text-center rounded-md mb-10 lg:mr-10">
-          Adaptability
-        </div>
-        <div className="flex justify-center items-center bg-[#f5f5f5] w-full lg:w-1/3 h-40 md:h-50 border-2 font-bold text-[#635656] text-center rounded-md mb-10">
-          Willingness to Learn
-        </div> */}
       </motion.div>
     </div>
   );

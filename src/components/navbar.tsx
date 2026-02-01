@@ -71,7 +71,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="sticky top-0 z-50 bg-white w-full h-20 drop-shadow-md drop-shadow-black font-sans">
+    <div className="sticky top-0 z-50 bg-zinc-100 w-full h-20 drop-shadow-md drop-shadow-black font-sans">
       <div className="flex h-full items-center text-center text-2xl md:text-3xl lg:text-3xl font-bold text-[#635656]">
         <div className="flex flex-1 ml-5 lg:ml-10">
           <Link
@@ -111,7 +111,7 @@ const Navbar = () => {
             variants={navbarVariants}
             initial="closed"
             animate="open"
-            className={`lg:hidden bg-white absolute top-full w-full border-t-2 border-[rgba(19,19,19,0.5)] text-[#635656] flex flex-col`}
+            className={`lg:hidden bg-zinc-100 absolute top-full w-full border-t-2 border-[rgba(19,19,19,0.5)] text-[#635656] flex flex-col`}
           >
             {items.map((item, index) => {
               return (
@@ -125,7 +125,7 @@ const Navbar = () => {
                   }
                   target={item.newTab ? "_blank" : "_self"}
                   rel={item.newTab ? "noopener noreferrer" : ""}
-                  className="pb-2 mt-1"
+                  className="pb-2 mt-1 bg-linear-to-r from-[#635656] to-[#635656] hover:from-[#4DB1B1] hover:via-[#90dfdf] hover:to-[#90dfdf] text-transparent bg-clip-text"
                 >
                   {item.name}
                 </Link>
