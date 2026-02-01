@@ -15,7 +15,7 @@ const Profile = () => {
           duration: 1.2,
         }}
       >
-        <div className="h-full flex flex-col lg:flex-row items-center">
+        <div className="h-full lg:ml-[2%] flex flex-col lg:flex-row items-center">
           <Image
             src={Picture}
             alt="Generic Avatar"

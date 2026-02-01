@@ -26,8 +26,8 @@ const Experience = () => {
         </div>
         <ul className="list-disc list-inside text-xl text-[#635656]">
           <li>
-            Developed and deployed 4+ responsive websites for UCR clubs and a
-            company using React, TailwindCSS, and Node.js
+            Developed 4+ responsive websites for UCR organizations and a company
+            using React (Next.js), TailwindCSS, and Node.js
           </li>
           <li>
             Collaborated with student teams and club leaders to ensure design
